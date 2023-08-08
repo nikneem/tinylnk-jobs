@@ -1,4 +1,4 @@
-name: Workflow example
+name: Hits Processor Workflow
 
 on:
   push:
