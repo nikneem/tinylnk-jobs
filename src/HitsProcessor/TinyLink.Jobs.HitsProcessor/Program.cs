@@ -15,7 +15,7 @@ const string partitionKey = "hit";
 
 static async Task Main()
 {
-    Console.WriteLine("Starting the process job");
+    Console.WriteLine("Starting the hits processor job");
 
     var serviceBusConnectionString = Environment.GetEnvironmentVariable("ServiceBusConnection");
     var storageAccountConnection = Environment.GetEnvironmentVariable("StorageAccountConnection");
