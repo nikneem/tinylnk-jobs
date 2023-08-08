@@ -2,8 +2,6 @@ name: Hits Processor Workflow
 
 on:
   push:
-    branches:
-      - main
     paths:
       - src/HitsProcessor
 
