@@ -33,7 +33,7 @@ static async Task Main()
         var payload = JsonConvert.DeserializeObject<ProcessHitCommand>(payloadString);
         if (payload != null)
         {
-            Console.WriteLine("Deserialized to a descent payload");
+            Console.WriteLine("Processing hit command, persisting to storage");
 
             Activity.Current?.AddTag("ShortCode", payload.ShortCode);
             Activity.Current?.AddTag("CreatedOn", payload.CreatedOn.ToString());
