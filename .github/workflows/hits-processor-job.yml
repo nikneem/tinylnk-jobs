@@ -3,7 +3,8 @@ name: Hits Processor Workflow
 on:
   push:
     paths:
-      - src/HitsProcessor
+      - "src/HitsProcessor/**"
+      - ".github/workflows/**"
 
 env:
   IMAGE_NAME: tinylnk-jobs-hitsprocessor
